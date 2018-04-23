@@ -1,0 +1,59 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.pimg1 {
+	position: relative;
+	opacity: 0.70;
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.pimg1 {
+	background-image: url("https://images.pexels.com/photos/8313/food-eating-potatoes-beer-8313.jpg?w=1260&h=750&auto=compress&cs=tinysrgb");
+	min-height: 100%;
+}
+
+
+.section {
+	text-align: center;
+	padding: 50px 10%;
+}
+
+.section-light {
+	background-color: #f4f4f4;
+	color: #666;
+}
+.section-dark {
+	background-color: #282e34;
+	color: #ddd;
+}
+
+.ptext {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.ptext .border {
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
+}

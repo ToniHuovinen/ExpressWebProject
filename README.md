@@ -4,8 +4,6 @@ Simple web project using Node.js and Express
 
 Contents of the page are in finnish. However, feel free to use it as a skeleton for your own project.
 
--- I will add the files after 27.4.2018--
-
 For running this project, you need to have Node.js and NPM installed on your computer. You can get both by downloading and installing NodeJs. After that, download files into any folder you want on your computer, and go to that folder by using your commandline.
 
 Next you have to install dependancies required by the project. Make sure you are in the correct folder in commandline, and make sure you have file named package.json. Type "npm install" (without quotes) on your commandline, npm fetches all the needed modules. After that you can type "node app.js" (without quotes) and the server starts.

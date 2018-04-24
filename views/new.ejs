@@ -1,0 +1,38 @@
+<% include partials/headershow %>
+
+<!-- Some additional CSS styling for this page -->
+<style type="text/css">
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+</style>
+	<div class="container shadow random">
+		<div class="row">
+			<h1 style="text-align: center;">Luo uusi resepti</h1>
+			<div style="width: 30%; margin: 70px auto;">
+				<form action="/main" method="POST">
+					<div class="form-group">
+						<input class="form-control" type="text" name="nimi" placeholder="Reseptin nimi">
+					</div>
+					<div class="form-group">
+						<input class="form-control" type="text" name="kuva" placeholder="Annoskuvan osoite">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" type="text" name="ainekset" placeholder="Ainekset"></textarea>
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" type="text" name="resepti" placeholder="Resepti"></textarea>
+					</div>
+					<div class="form-group">
+						<button class="btn btn-lg btn-primary btn-block">Lähetä</button>
+					</div>  
+				</form>
+				<a href="/main">Takaisin reseptinäkymään</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<% include partials/footer%>
